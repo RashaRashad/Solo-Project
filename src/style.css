@@ -1,0 +1,154 @@
+body {
+  background-color: #23252c;
+  color: rgb(196, 83, 186);
+}
+.wrapper {
+  background-color: #1a1b21;
+  margin: 15% auto 0 auto;
+  display: flex;
+  border-radius: 8px;
+  flex-direction: column;
+  width: 270px;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+}
+
+.logo {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 270px;
+  height: 270px;
+}
+
+.text1 {
+  margin-top: 10px;
+  font-size: 19px;
+  text-align: center;
+  font-weight: bold;
+}
+.text2 {
+  color: #bda15f;
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+.text3 {
+  font-size: 8px;
+  margin-top: 5px;
+  color: #918e9b;
+}
+
+button {
+  /* border:1px solid white; */
+  width: 100px;
+  height: 28px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-size: 13px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+button:hover {
+  border: 1px solid pink;
+  transition: all 0.3s;
+}
+.btn1 {
+  margin: 12px 5px 10px 10px;
+  padding-left: 20px;
+  background: #fff;
+  position: relative;
+}
+.email {
+  position: absolute;
+  left: 20px;
+  top: 7px;
+}
+
+.btn2 {
+  margin: 12px 10px 5px 10px;
+  padding-left: 15px;
+  position: relative;
+  background: #098dd4;
+  color: #fff;
+}
+.linkedn {
+  position: absolute;
+  left: 10px;
+  top: 7px;
+}
+
+.about {
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.paragraph1 {
+  color: #918e9b;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  margin-left: 30px;
+  margin-right: 25px;
+  margin-top: 3px;
+  font-size: 9px;
+  line-height: 10px;
+}
+
+.Intrests {
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.paragraph2 {
+  color: #918e9b;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  margin-left: 30px;
+  margin-right: 25px;
+  margin-top: 3px;
+  font-size: 9px;
+  line-height: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 270px;
+  height: 50px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer-icon {
+  border-radius: 2px;
+  margin: 10px;
+  width: 25px;
+  height: 25px;
+  background: #918e9b;
+}
+
+.twitter {
+  color: #161619;
+  font-size: 20px;
+  margin: 2px;
+}
+.facebook {
+  color: #161619;
+  font-size: 20px;
+  margin: 2px;
+}
+
+.insta {
+  color: #161619;
+  font-size: 20px;
+  margin: 2px;
+}
+
+.github {
+  color: #161619;
+  font-size: 20px;
+  margin: 2px;
+}
